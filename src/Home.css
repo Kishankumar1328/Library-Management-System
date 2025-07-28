@@ -1,0 +1,93 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.Topbar{
+    height: 70px;
+    width:100%;
+    background-color: #070707;
+    display: flex;
+    position: relative;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 50px;
+    
+    
+   
+}
+input{
+    position: absolute;
+    left:400px;
+    top:20px;
+    width: 400px;
+    height: 25px;
+}
+li{
+    display: inline;
+    padding : 20px;
+    color:white;
+}
+ul{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    
+}
+li>button{
+    width:100px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.body{
+    display: flext;
+    position:absolute;
+}
+.cart{
+    width:250px;
+    height:300px;
+margin-top: 50px;;
+    margin-left:50px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #4f98f0;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    position: relative;
+}
+img{
+    height:250px;
+    width:250px;
+    position:absolute;
+
+
+}
+h2{
+    position: absolute;
+   bottom: 60px;
+  left:40px;
+    color: rgb(16, 13, 13);
+}
+.cart>button{
+    position: absolute;
+    bottom: 15px;
+    left: 70px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: black;
+    font-size: 15px;
+}
+h3{
+    position: absolute;
+    align-items: center;
+   bottom: 35px;
+    left: 70px;
+    color: rgb(16, 13, 13);
+}
