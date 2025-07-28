@@ -15,10 +15,9 @@ h1{
     color: white;
     position: absolute;
     left: 50px;
-    
-    
-   
+    top: 15px;
 }
+
 input{
     position: absolute;
     left:400px;
@@ -44,14 +43,15 @@ li>button{
 }
 
 .body{
-    display: flext;
-    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 70px;
 }
 .cart{
     width:250px;
     height:300px;
-margin-top: 50px;;
-    margin-left:50px;
     border-radius: 10px;
     display: inline-block;
     background-color: #4f98f0;
@@ -64,9 +64,8 @@ img{
     height:250px;
     width:250px;
     position:absolute;
-
-
 }
+
 h2{
     position: absolute;
    bottom: 60px;

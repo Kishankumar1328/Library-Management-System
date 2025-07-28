@@ -11,7 +11,7 @@ function Topbar()
             <ul>
                 <li><button>Home</button></li>
                 <li><button>About</button></li>
-                <li><button>Contact as</button></li>
+                <li><button>Contact us</button></li>
                 <li><button>Login</button></li>
             </ul>
 
@@ -25,9 +25,30 @@ function Topbar()
                 <button>Download</button>
                 
             </div>
+            <div className='cart'>
+                <img src={library} alt="Library" className="library-image" />
+                <h2>Book Title(2025)</h2>
+                <h3>Author Name</h3>
+                <button>Download</button>
+                
             </div>
+            <div className='cart'>
+                <img src={library} alt="Library" className="library-image" />
+                <h2>Book Title(2025)</h2>
+                <h3>Author Name</h3>
+                <button>Download</button>
+                
+            </div>
+            <div className='cart'>
+                <img src={library} alt="Library" className="library-image" />
+                <h2>Book Title(2025)</h2>
+                <h3>Author Name</h3>
+                <button>Download</button>
+                
+            </div>
+
+        </div>
         </>    
     );
-
 }
 export default Topbar;

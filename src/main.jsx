@@ -7,6 +7,7 @@ import Topbar from './Topbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <App />
     <Topbar />
   </StrictMode>
 )
